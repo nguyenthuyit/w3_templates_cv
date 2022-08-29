@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto Flex', sans-serif;
+}
+#content{
+    display: grid;
+    grid-template-columns: 30% 68%;
+    column-gap: 30px;
+    padding: 16px;
+}
+#content img{
+    width: 100%;
+}
+#content .content-left{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+.content-left .left-item{
+    position: relative;
+}
+.content-left .info-name{
+    position: absolute;
+    bottom:40%;
+    font-size: 3.6rem;
+    left: 5%;
+}
+.content-left .info-des{
+    font-size: 1.5rem;
+    padding: 8px 16px;
+    color: #757575;
+    
+}
+#content .icon{
+    margin-right: 16px;
+    color: #009688;
+    font-size: 1.5rem;
+}
+hr{
+    border: 1px solid #ccc;
+    margin: 32px 16px;
+}
+
+.content-left .left-item-second,
+.content-left .left-item-third{
+    padding: 24px 16px;
+
+}
+.content-left .title-skill{
+    font-size: 2rem;
+}
+.content-left .item-skill{
+    font-size: 1.5rem;
+    color: #757575;
+    margin: 16px 0;
+   
+}
+.content-left .rang-item{
+    background-color: #ccc;
+    border-radius: 10px;
+}
+.content-left .option-rang{
+    background-color: #009688;
+    border-radius: 10px;
+}
+.w-90{
+    width: 90%;
+}
+.w-80{
+    width: 80%;
+}
+.w-75{
+    width: 75%;
+}
+.w-50{
+    width: 50%;
+    
+}
+.height-rang{
+    height: 18px;
+}
+.content-left .text-option{
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.content-right .item-right{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    padding: 16px;
+    margin-bottom: 32px;
+
+}
+.content-right .title-item{
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    margin-bottom: 32px;
+    color: #717171;
+}
+.content-right .icon-item{
+    margin-right: 16px;
+    color: #009688;
+}
+.content-right .name-item-job{
+    font-size: 2rem;
+    margin-bottom: 16px;
+    color:#717171;
+}
+.content-right .time-job{
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: #009688;
+}
+.content-right span{
+    color: #fff;
+    background-color: #009688;
+    padding: 6px 16px;
+}
+.content-right .des-job{
+    font-size: 1.5rem;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    line-height: 1.4;
+}
+#footer{
+    background-color: #009688;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
+#footer .text-footer{
+   margin: 24px 0;
+}
+#footer a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 8px;
+}
+#footer a:hover{
+    opacity: 0.5;
+}

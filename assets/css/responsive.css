@@ -1,0 +1,17 @@
+@media(min-width: 740px) and (max-width: 1023px){
+    .content-left .info-name{
+        bottom: 50%;
+    }
+    #content{
+        grid-template-columns: 30% 66%;
+    }
+}
+@media(max-width: 739px){
+    #content{
+        display: block;
+        
+    }
+    .content-right{
+        margin-top: 32px;
+    }
+}
